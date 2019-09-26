@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Emma Ekman">
+    <meta name="description" content="Tentamen i html/css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>tentamen1_html_emm_ekm</title>
+</head>
+<body>
+    <h1>Emma Ekman</h1>
+    <nav class="nav">
+        <ul class="unordered">
+            <li><a href="https://github.com">Github</a></li>
+            <li><a href="https://git-scm.com/docs">Git</a></li>
+            <li><a href="https://www.w3schools.com/">W3schools</a></li>
+        </ul>
+    </nav>
+
+    <ol>
+        <li>Jane</li>
+        <li>John</li>
+        <li>Karen</li>
+        <li>Karl</li>
+        <li>Betty</li>
+        <li>Bart</li>
+    </ol>
+
+    <div id="team-table">
+        <table>
+            <tr>
+                <th>Position</th>
+                <th>Lag</th>
+                <th>Poäng</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Jägersborg</td>
+                <td>67p</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Malmö</td>
+                <td>24p</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Hammarby</td>
+                <td>22p</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="funny-element"></div>
+
+    <div id="container">
+        <img class="kitten" src="http://placekitten.com/300/200">
+        <img class="kitten" src="http://placekitten.com/300/200">
+        <img class="kitten" src="http://placekitten.com/300/200">
+        <img class="kitten" src="http://placekitten.com/300/200">
+        <img class="kitten" src="http://placekitten.com/300/200">
+        <img class="kitten" src="http://placekitten.com/300/200">
+        <img class="kitten" src="http://placekitten.com/300/200">
+    </div>
+
+    <h1>SEO och nyckelord</h1>
+    <p>1. Det är viktigt att man använder sina nyckelord i h1:or(ska helst finnas
+        minst 1 på varje sida), i sina underrubriker och i sitt content. Det är 
+        också bra om det finns med i varje titel och det kan vara bra att ha det i sin meta description,
+        även om detta är omdiskuterat då dina konkurrenter enkelt kan se vilka dina
+        nyckelord är.<br>
+        2. Det är viktigt att nyckelorden är relevanta för ditt innehåll och att de används på
+        ett naturligt sätt. Google kan ge dig sämre rank om de märker att du överanvänder dina nyckelord på
+        ett onaturligt sätt då det gör din sida mindre användarvänlig. Det är också
+        viktigt att försöka hitta andra nyckelord än dina konkurrenter(begreppet hög organic något), då det 
+        är svårare att ranka högt på de populäraste nyckelorden bland dina konkurrenter. Man kan försöka vara mer
+        specifik, om du ex har en yoga studio är det svårt att ranka högt med yoga studio som nyckelord, men att istället ha nyckelord 
+        yoga studio växjö kan ge dig högre rankning.
+    </p>
+
+    <h1>Responsiv webbdesign</h1>
+    <p>1. Responsiv webbdesign innebär att innehållet på en webbplats anpassas för att fungerar
+        på olika enheter i olika storlekar. Det är viktigt för att det gör  webbplatsen användarvänlig 
+        och anpassar sig efter viewport på enheten du använder, användaren slipper scrolla och zooma in för att
+        kunna integrera med din webbplats. 
+        <br>
+        2. Det går att skapa genom att använda sig av media query där du väljer vid vilken brytpunkt skärmen ska ändra sig. 
+        Om du har brytpunkt max-width 768px så kan du skriva styling för hur innehållet ska bete sig när skärmen är mindre 
+        än 768px bred.
+        Det går också att använda sig av relativa storlekar som % eller vw. Om en div har bredd
+        100% så är den 100% av skärmstorleken och anpassar sig om skärmen blir mindre.
+        Eller så kan man använda sig av 12-grid layout som innebär att hela sidan är uppdelad i 12 grids och du ger element 
+        på en rad columner som tillsammans blir 12 genom att använda dig av nedanstående kod i din html och css fil. 
+        <!--.col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}-->
+    </p>
+    <h1>Nätverk</h1>
+    <p>Datornätverk är datorer som kommunicerar. Protokol är en uppsättning riktlinjer/regler för hur detta sker.    
+        När jag skriver in en webbplats i en webbläsare så skickas en förfrågan
+        till en webbserver. Detta sker genom protokol TCP/IP som delar upp datan
+        i paket och som skickas till olika webbservrar. Webbservrar är datorer som är direkt kopplade till internet.
+        Sedan skickas paketen tillbaka till destinationen med hjälp av ip som fungerar som en gps, och paketen sätts tillbaka vid destinationen 
+        och ger dig webbplatsen du sökt efter. TCP kan se vilken ordning paketen ska sättas ihop och om det saknas paket. 
+        Man kan säga att webbläsaren fungerar som en översättare då webbplatser är uppbyggda på datorspråk (1:or och 0:or), och webbläsaren
+        översätter dessa med hjälp av html-, css- och javascript-dokument och ger oss en användarvänlig webbplats vi förstår. 
+    </p>
+
+    <h1>Bootstrap</h1>
+    <p>1. Bootstrap är ett verktyg för frontendutvecklare med återanvändbar kod inom html, javascript och css, 
+        som är open source, det vill säga alla får ta del av det. Det skapades av twitter och används ofta inom webbutveckling och 
+        det underlättar för dig att slippa upprepa/skriva mycket kod. Vill du tex ha en nav genom bootstrap så använder du
+        bara deras klassnamn/idnamn i din html för att få den designen.
+        <br>
+        2. Man kan antingen ladda ner bootstrap och länka det som ett vanligt stylesheet i din head-tag, detta är smidigt
+        då det inte är en stor fil men däremot kan det bli problem när versionen uppdateras och du måste ändra detta i massa
+        kod-dokument. Eller så kan du använda det genom CDN som innebär att du länkar till deras senaste version som finns globalt. När en användare besöker din sida om
+            du använt dig av CDN så skickas förfrågan till närmsta platsen för användaren och det går snabbare att ladda sidan än med lokal nedladdning.
+            Nackdel med att använda sig av CDN är att om det ligger nere så funkar inte din sida som den ska och du kan inte göra något åt det(dock väldigt ovanligt att det händer).
+            En annan sak kan vara att vissa länder bannar ip-adresser och då kanske din sida inte funkar som den ska i det landet.
+    </p>
+    <h1>Uppgift 18</h1>
+    <p>1. Det saknas html-tag och det saknas type="text/css" i styles-länken.
+        Övergripande är det dåligt indenterat, exempelvis ligger link i head inte på samma nivå som meta, section ligger
+        längre in än h3 osv. Jag hade också valt att ta ny rad på stylingen, det funkar nu när det bara 
+        är en styling på varje element men det skule bli rörigt om det fanns flera stylings.
+        <br>
+        2. "nav" ligger i den div, vilket inte är semantiskt korrekt utan skulle istället ligga i ett nav-element.
+        Där saknas det också element för vilken slags lista det är: ul, ol, eller dl. 
+        <br>
+        3. Section saknar sluttag och textraden borde ligga i en p-tag och inte i en div. Detsamma gäller för 
+        "här ser du en bild på oss", som borde ligga i en underrubrikstag(h2-h6). Img elementet ska ha "image.png" som nu saknas.
+        <br>
+        4. Eftersom det använts styling i head borde inte inline styling finnas i diven, den är även felskriven och saknar en ".
+            Form måste ha action för att kunna skickas någonstans med get och varje input ska ha name="" för att veta vad för information vi får.
+            Det finns ingen text som visar att det är password användaren ska skriva in, utan bara en ruta att skriva i.
+        <br>
+        5. Footer ligger i div som inte är semantiskt och borde ligga i ett footer-element. Kontakta oss på ligger också i div 
+        som borde ligga i en paragraf eller h1-h6. Jag hade lagt allt i ett footer-element, sedan en div där infon hade legat i p-tag/h-tag för att
+        kunna styla det bäst.
+    </p>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+h1 {
+    font-size: 3em;
+    color: #0000ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav {
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.unordered li {
+    display: inline;
+    margin: 20px;
+}
+#team-table {
+    background-color: lightgrey;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+}
+#funny-element {
+    width: 200px;
+    height: 30px;
+    background-color: green;
+    position: absolute;
+    top: 1800px;
+    right: 0px;
+}
+#container {
+    display: flex;
+    width: 644px;
+    flex-wrap: wrap;
+}
+.kitten {
+    margin: 10px;
+    border: 1px solid red;
+}
